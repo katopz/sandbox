@@ -16,7 +16,10 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
-    "@solana/web3.js": "^1.47.1"
+    "@solana/web3.js": "^1.47.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@types/react": "^17.0.21",
@@ -25,16 +28,16 @@
     "react-scripts": "^4.0.3",
     "typescript": "^4.4.3"
   },
-  "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "styled-components": "^5.3.5"
-  },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3002 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "tsc": "tsc"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

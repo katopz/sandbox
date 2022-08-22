@@ -42,7 +42,7 @@ const StyledApp = styled.div`
 const NETWORK = clusterApiUrl('mainnet-beta');
 const provider = getProvider();
 const connection = new Connection(NETWORK);
-const message = 'To avoid digital dognappers, sign below to authenticate with CryptoCorgis.';
+const message = 'hello world';
 
 // =============================================================================
 // Typedefs
